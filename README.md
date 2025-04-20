@@ -55,7 +55,7 @@ Response (Write)
 | 0x01~0x02 | Address            |
 | 0x03      | Length             |
 
-これらのクエリ/レスポンスをCOBSを用いてエンコード/デコードしてから送受信します。
+These queries/responses are encoded/decoded using COBS and then sent and received.
 Send these query with encoding/decoding with COBS.
 
 ### Address Map
@@ -84,7 +84,7 @@ Send these query with encoding/decoding with COBS.
 | 0x3004        | Enter DFU                        | W   |
 | 0x3005-0xFFFF | Reserved                         | -   |
 
-それぞれのキーの設定は次のようになっています。
+The settings for each key are as follows.
 Each key config is as follows:
 | Address | Description                               |
 | ------- | ----------------------------------------- |
@@ -94,7 +94,7 @@ Each key config is as follows:
 | 0x07    | rappid_trigger_up_sensivity               |
 | 0x08    | rappid_trigger_down_sensivity             |
 
-それぞれのキーのキャリブレーションデータは以下のようになっています。
+Each key's calibration data is as follows.
 Each key calibration data is as follows:
 | Address   | Description |
 | --------- | ----------- |
