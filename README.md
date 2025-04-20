@@ -5,8 +5,7 @@
 ## PCB
 pcb/ember
 
-基板はKiCAD7で制作され、USBコネクタを除く全てのパーツはJLCPCBのPCBAサービスで実装することができます。
-TypeCコネクタは[5077CR-16-SMC2-BK-TR](https://akizukidenshi.com/catalog/g/gC-14356/)を用いることができます。
+The board is made with KiCAD7, all parts except the USB connector can be implemented by JLCPCB's PCBA service. Type C connector can be used 5077CR-16-SMC2-BK-TR(https://akizukidenshi.com/catalog/g/gC-14356/)
 
 pcb was designed with KiCAD 7.
 All of components except USB Connector is available at jlcpcb pcba service.
