@@ -19,8 +19,7 @@ pcb/ember_bottom_plate, pcb/ember_top_plate
 
 
 ## Communication
-このキーボードはHID&CDC複合デバイスとして認識されます。
-各種設定はCDCから行うことができます。
+This keyboard is recognized as a HID&CDC composite device. Various settings can be made from CDC.
 
 This keyboard is recognized as HID&CDC composite device.
 Configuration (Keymapping, Calibration, Rapid Trigger, etc...) can be done from CDC.
